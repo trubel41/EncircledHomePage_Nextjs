@@ -1,0 +1,242 @@
+$primary: #17365D;
+$yellow: #FFE78B;
+
+$dark: #121212;
+$dark-15: #151618;
+$dark-0E: #0E0E0E;
+
+$white: #ffffff;
+$black: #000;
+
+$font-18: 18px;
+$font-16: 16px;
+$font-family: 'Inter', sans-serif;
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100.01%;
+    scroll-behavior: smooth;
+}
+
+
+body{
+	background-color: $dark-0E;
+	font-family: $font-family;
+	font-size: $font-16;
+	position: relative;
+	overflow-x: hidden;
+	min-height: 100vh;
+	line-height: 1.50;
+	font-weight: 400;
+	color: $white;
+
+	@include maxDevice(767px){
+		font-size: 15px;
+	}
+}
+
+.container{
+	max-width: 1200px;
+	width: 100%;
+
+	&-md{
+		max-width: 1024px;
+	}
+}
+
+a{
+	color: $white;
+	text-decoration: none !important;
+}
+
+a, .btn, button{
+	outline: none !important; 
+}
+
+p{
+    font-size: 1em;
+
+    &:last-child{
+    	margin-bottom: 0;
+    }
+
+    small{
+    	font-size: 0.90em;
+    }
+}
+
+strong{
+	font-weight: 700;
+}
+
+
+.dropdown-noarrow:after{
+	display: none;
+}
+
+.overflow-visible{
+	overflow: visible !important;
+}
+
+.nowrap{
+	white-space: nowrap;
+}
+
+a, .btn span, .btn img, button, input, .btn{
+	@include transition(all 0.35s ease);
+}
+
+
+.btn{
+	border-radius: 15px !important;
+	font-family: $font-family;
+	font-size: $font-16;
+	padding: 17px 15px;
+	font-weight: 700;
+	border-radius: 0;
+	min-width: 325px;
+	color: #fff;
+
+	@include maxDevice(575px){
+		min-width: 300px;
+	}
+
+	&-auto{
+		min-width: auto;
+	}
+
+	&-link{
+		color: $yellow;
+		font-weight: 700;
+
+		&:hover{
+			color: $primary;
+		}
+	}
+
+	&-white{
+		background-color: $white;
+		color: $dark;
+
+		&:hover{
+			background-color: $yellow;
+			border-color: $yellow;
+			color: $dark;
+		}
+	}
+
+	&-outline-white{
+		border: 2px solid $white;
+		color: $white;
+
+		&:hover{
+			border-color: $yellow;
+			color: $yellow;
+		}
+
+		svg{
+			margin-left: 15px;
+		}
+	}
+
+	& + .btn{
+		margin-left: 30px;
+	}
+}
+
+hr{
+	opacity: 1;
+}
+
+.text{
+	&-18{
+		font-size: $font-18;
+	}
+	
+	&-16{
+		font-size: $font-16;
+	}
+
+	&-bold{
+		font-weight: 700;
+	}
+
+	&-ex-bold{
+		font-weight: 800;
+
+		@include maxDevice(767px){
+			font-weight: 700;
+		}
+	}
+
+	&-muted{
+		color: rgba($white, 0.7) !important;
+	}
+
+	&-grad{
+		background: linear-gradient(271.78deg, $white 0.86%, #C2FFF4 99.19%), $white;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+}
+
+button, input{
+	&:focus{
+		box-shadow: none !important;
+	}
+}
+
+.mb{
+	&-10{
+		margin-bottom: 10px;
+	}
+
+	&-20{
+		margin-bottom: 20px;
+	}
+	
+	&-30{
+		margin-bottom: 30px;
+
+		@include maxDevice(767px){
+			margin-bottom: 22px;
+		}
+	}
+
+	&-40{
+		margin-bottom: 40px;
+
+		@include maxDevice(767px){
+			margin-bottom: 25px;
+		}
+	}
+
+	&-50{
+		margin-bottom: 50px;
+
+		@include maxDevice(767px){
+			margin-bottom: 35px;
+		}
+	}
+
+	&-60{
+		margin-bottom: 60px;
+
+		@include maxDevice(991px){
+			margin-bottom: 46px;
+		}
+	}
+}
+
+.mr{
+	&-15{
+		margin-right: 15px;
+	}
+}

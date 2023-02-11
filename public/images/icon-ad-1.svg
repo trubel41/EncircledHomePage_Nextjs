@@ -1,0 +1,32 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_184_1803)">
+<circle r="9.29984" transform="matrix(-0.96665 -0.256102 0.256115 -0.966646 54.3716 17.3708)" fill="url(#paint0_radial_184_1803)"/>
+<ellipse rx="22.6886" ry="22.6613" transform="matrix(-0.715028 0.699096 -0.699086 -0.715037 28.0652 42.0651)" fill="url(#paint1_radial_184_1803)"/>
+<path d="M38.5 32.5C44.1796 27.5644 47.4534 24.6283 53.5 19M45.5 48C48 45 50.5 40.5 52 37.5C53.5 34.5 56 27.5 56 27.5M22.5 24C29 20.5 35 18.5 43.5 16.5" stroke="url(#paint2_linear_184_1803)" stroke-linecap="round"/>
+<circle cx="20" cy="51" r="19" fill="url(#paint3_radial_184_1803)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_184_1803" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(13.5598 11.6571) rotate(-146.568) scale(11.123 11.1477)">
+<stop stop-color="#007383"/>
+<stop offset="0.302083" stop-color="#00647A"/>
+<stop offset="1" stop-color="#004462" stop-opacity="0.31"/>
+</radialGradient>
+<radialGradient id="paint1_radial_184_1803" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(33.0815 28.4052) rotate(-146.6) scale(27.1266 27.1739)">
+<stop stop-color="#0047A0"/>
+<stop offset="0.395833" stop-color="#003C87"/>
+<stop offset="1" stop-color="#091E38" stop-opacity="0.73"/>
+</radialGradient>
+<linearGradient id="paint2_linear_184_1803" x1="29.5" y1="41.5" x2="57.5" y2="14" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="paint3_radial_184_1803" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20 51) rotate(90) scale(19)">
+<stop stop-color="#6FBAFF" stop-opacity="0.8"/>
+<stop offset="0.427083" stop-color="#6FC2FF" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#2E699F" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_184_1803">
+<rect width="70" height="70" fill="white"/>
+</clipPath>
+</defs>
+</svg>
